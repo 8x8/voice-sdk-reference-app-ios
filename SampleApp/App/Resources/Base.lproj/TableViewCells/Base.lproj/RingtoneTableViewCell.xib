@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Medium.ttf">
+            <string>Rubik-Medium</string>
+        </array>
+        <array key="Rubik-Regular.ttf">
+            <string>Rubik-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RingtoneTableViewCell" rowHeight="60" id="EgQ-Z1-vUn" customClass="RingtoneTableViewCell" customModule="Dialer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EgQ-Z1-vUn" id="cMc-FJ-sJl">
+                <rect key="frame" x="0.0" y="0.0" width="569" height="60"/>
+                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dfm-qe-lhi">
+                        <rect key="frame" x="16" y="19" width="43.5" height="22"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22" id="lwB-HH-uJS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="16"/>
+                        <color key="textColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nly-dB-4av" userLabel="Value">
+                        <rect key="frame" x="453" y="15" width="101" height="30"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="18"/>
+                        <color key="textColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="nly-dB-4av" secondAttribute="bottom" priority="750" constant="15" id="DDj-fm-vyi"/>
+                    <constraint firstItem="Dfm-qe-lhi" firstAttribute="leading" secondItem="cMc-FJ-sJl" secondAttribute="leading" constant="16" id="OgL-6u-js3"/>
+                    <constraint firstItem="nly-dB-4av" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Dfm-qe-lhi" secondAttribute="trailing" constant="16" id="Qv5-Nr-qAC"/>
+                    <constraint firstItem="Dfm-qe-lhi" firstAttribute="top" secondItem="cMc-FJ-sJl" secondAttribute="top" constant="19" id="RRl-xE-imu"/>
+                    <constraint firstAttribute="bottom" secondItem="Dfm-qe-lhi" secondAttribute="bottom" constant="19" id="Wj4-9t-4o8"/>
+                    <constraint firstItem="nly-dB-4av" firstAttribute="centerY" secondItem="cMc-FJ-sJl" secondAttribute="centerY" id="xxP-FO-Adc"/>
+                    <constraint firstAttribute="trailing" secondItem="nly-dB-4av" secondAttribute="trailing" constant="20" id="zkP-AF-swA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="name" destination="Dfm-qe-lhi" id="mAZ-4F-nFh"/>
+                <outlet property="value" destination="nly-dB-4av" id="brM-UI-LDp"/>
+            </connections>
+            <point key="canvasLocation" x="232" y="131.33433283358323"/>
+        </tableViewCell>
+    </objects>
+</document>

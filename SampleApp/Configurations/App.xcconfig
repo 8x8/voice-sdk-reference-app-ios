@@ -1,0 +1,35 @@
+//
+//  App.xcconfig
+//
+//  Copyright © 2020 8x8, Inc. All rights reserved.
+//
+
+#include "CodeSign.xcconfig"
+#include "VersionInfo.xcconfig"
+
+PRODUCT_NAME = $(TARGET_NAME)
+
+BUNDLE_DISPLAY_NAME = $(PRODUCT_NAME)
+PRODUCT_BUNDLE_IDENTIFIER = com.8x8.voice.sdk.$(PRODUCT_NAME)
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+
+INFOPLIST_FILE = $(PROJECT_NAME)/App/Resources/$(PRODUCT_NAME)-Info.plist
+CODE_SIGN_ENTITLEMENTS = $(PROJECT_NAME)/App/Resources/$(PRODUCT_NAME).entitlements
+CODE_SIGNING_REQUIRED = YES
+
+// Compiler - Language
+FRAMEWORK_SEARCH_PATHS = $(PROJECT_DIR)/$(PROJECT_NAME)/Frameworks
+USER_HEADER_SEARCH_PATHS = $(inherited)
+HEADER_SEARCH_PATHS = $(inherited)
+
+// Packaging
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+
+// Linker
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks @loader_path/Frameworks
+// OTHER_LDFLAGS = $(inherited) -ObjC
+
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited)
+
+// Swift Lint
+LINT_FOLDER_LIST = $(PROJECT_NAME)/App/Sources

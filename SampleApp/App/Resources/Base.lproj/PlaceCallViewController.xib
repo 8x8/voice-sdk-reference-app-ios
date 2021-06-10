@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Medium.ttf">
+            <string>Rubik-Medium</string>
+        </array>
+        <array key="Rubik-Regular.ttf">
+            <string>Rubik-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlaceCallViewController" customModule="Dialer" customModuleProvider="target">
+            <connections>
+                <outlet property="callButton" destination="aVQ-0H-ZhZ" id="tBK-JP-YpN"/>
+                <outlet property="calleeIdLabel" destination="epX-ZC-zY0" id="y4m-MS-aNu"/>
+                <outlet property="calleeIdTextField" destination="Bsy-ob-n2L" id="C4H-eZ-el9"/>
+                <outlet property="view" destination="iN0-l3-epB" id="GV2-BW-tt6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ham-TF-bgz">
+                    <rect key="frame" x="27.5" y="198.5" width="320" height="270"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Callee ID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epX-ZC-zY0">
+                            <rect key="frame" x="8" y="8" width="304" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="oaB-Wy-VWC"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="14"/>
+                            <color key="textColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bsy-ob-n2L">
+                            <rect key="frame" x="8" y="46" width="304" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="34" id="Cgq-7V-zq1"/>
+                            </constraints>
+                            <color key="textColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="22"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" enablesReturnKeyAutomatically="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="Byv-EU-2ex"/>
+                            </connections>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVQ-0H-ZhZ" userLabel="callButton">
+                            <rect key="frame" x="8" y="214" width="304" height="48"/>
+                            <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="7Aw-1V-d2f"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="16"/>
+                            <state key="normal" title="Place a Call">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="38"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="handleCallAction:" destination="-1" eventType="touchUpInside" id="47d-mU-czZ"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hl9-mb-ORX" userLabel="Divider">
+                            <rect key="frame" x="8" y="83" width="304" height="1"/>
+                            <color key="backgroundColor" red="0.16078431369999999" green="0.18823529410000001" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="AAJ-9b-Nfr"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="aVQ-0H-ZhZ" firstAttribute="leading" secondItem="Ham-TF-bgz" secondAttribute="leading" constant="8" id="2dd-K9-B6L"/>
+                        <constraint firstAttribute="trailing" secondItem="Bsy-ob-n2L" secondAttribute="trailing" constant="8" id="BSK-av-RoG"/>
+                        <constraint firstItem="hl9-mb-ORX" firstAttribute="leading" secondItem="Ham-TF-bgz" secondAttribute="leading" constant="8" id="Cpt-b4-XVL"/>
+                        <constraint firstItem="Bsy-ob-n2L" firstAttribute="leading" secondItem="Ham-TF-bgz" secondAttribute="leading" constant="8" id="Etn-zq-hlD"/>
+                        <constraint firstAttribute="trailing" secondItem="aVQ-0H-ZhZ" secondAttribute="trailing" constant="8" id="HU6-fL-3LH"/>
+                        <constraint firstItem="hl9-mb-ORX" firstAttribute="top" secondItem="Ham-TF-bgz" secondAttribute="top" constant="83" id="K7m-GH-a25"/>
+                        <constraint firstAttribute="height" constant="270" id="Kap-IU-6SG"/>
+                        <constraint firstItem="epX-ZC-zY0" firstAttribute="top" secondItem="Ham-TF-bgz" secondAttribute="top" constant="8" id="M9g-eX-RF8"/>
+                        <constraint firstAttribute="bottom" secondItem="aVQ-0H-ZhZ" secondAttribute="bottom" constant="8" id="QZE-c7-zxd"/>
+                        <constraint firstItem="Bsy-ob-n2L" firstAttribute="top" secondItem="Ham-TF-bgz" secondAttribute="top" constant="46" id="qOQ-tz-Fb2"/>
+                        <constraint firstItem="epX-ZC-zY0" firstAttribute="leading" secondItem="Ham-TF-bgz" secondAttribute="leading" constant="8" id="sM9-qM-RNb"/>
+                        <constraint firstAttribute="trailing" secondItem="epX-ZC-zY0" secondAttribute="trailing" constant="8" id="str-tT-GmE"/>
+                        <constraint firstAttribute="trailing" secondItem="hl9-mb-ORX" secondAttribute="trailing" constant="8" id="vRc-t8-lav"/>
+                        <constraint firstAttribute="width" constant="320" id="xhe-MD-jOf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Ham-TF-bgz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="dVN-8N-b4W"/>
+                <constraint firstItem="Ham-TF-bgz" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="tFn-7A-FL0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="jmv-an-TKr"/>
+            <point key="canvasLocation" x="32.799999999999997" y="52.623688155922046"/>
+        </view>
+    </objects>
+</document>

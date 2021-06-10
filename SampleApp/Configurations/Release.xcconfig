@@ -1,0 +1,29 @@
+//
+//  Release.xcconfig
+//
+//  Copyright © 2020 8x8, Inc. All rights reserved.
+//
+
+#include "Common.xcconfig"
+
+// Build Options
+VALIDATE_PRODUCT = YES
+
+ENABLE_TESTABILITY = NO
+
+// Deployment
+COPY_PHASE_STRIP = YES
+DEPLOYMENT_POSTPROCESSING = YES
+STRIPFLAGS = -r -u
+
+// Compiler - Code Generation
+GCC_OPTIMIZATION_LEVEL = 03
+SWIFT_OPTIMIZATION_LEVEL = -Owholemodule
+SWIFT_COMPILATION_MODE = wholemodule
+
+// Compiler - Preprocessing
+ENABLE_NS_ASSERTIONS = NO
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) NDEBUG=1
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = NDEBUG RELEASE
+
+BUILD_CONFIGURATION = release

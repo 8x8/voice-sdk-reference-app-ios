@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "call-control-no-audio.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

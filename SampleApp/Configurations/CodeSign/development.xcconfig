@@ -1,0 +1,11 @@
+//
+//  CodeSign.xcconfig
+//
+//  Copyright © 2020 8x8, Inc. All rights reserved.
+//
+
+DEVELOPMENT_TEAM = FC967L3QRG
+CODE_SIGN_IDENTITY = iPhone Developer
+PROVISIONING_PROFILE_SPECIFIER =
+CODE_SIGN_STYLE = Automatic
+PRODUCT_DISTRIBUTION_TYPE = development

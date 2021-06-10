@@ -1,0 +1,28 @@
+//
+//  Debug.xcconfig
+//
+//  Copyright © 2020 8x8, Inc. All rights reserved.
+//
+
+#include "Common.xcconfig"
+
+// Architectures
+ONLY_ACTIVE_ARCH = YES
+
+// Build Options
+VALIDATE_PRODUCT = NO
+
+ENABLE_TESTABILITY = YES
+
+// Deployment
+COPY_PHASE_STRIP = NO
+
+// Compiler - Code Generation
+GCC_OPTIMIZATION_LEVEL = 0
+SWIFT_OPTIMIZATION_LEVEL = -Onone
+
+// Compiler - Preprocessing
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) DEBUG=1
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG
+
+BUILD_CONFIGURATION = debug

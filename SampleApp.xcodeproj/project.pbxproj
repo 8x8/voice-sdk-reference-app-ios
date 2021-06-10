@@ -1,0 +1,1394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6371801A249D38F000298741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63718017249D38F000298741 /* AppDelegate.swift */; };
+		63718027249D394F00298741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63718026249D394F00298741 /* Assets.xcassets */; };
+		63718039249D3EC600298741 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6371802E249D3EC600298741 /* OFL.txt */; };
+		6371803A249D3EC600298741 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6371802F249D3EC600298741 /* Rubik-Regular.ttf */; };
+		6371803B249D3EC600298741 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63718030249D3EC600298741 /* Rubik-Medium.ttf */; };
+		6371803C249D3EC600298741 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63718031249D3EC600298741 /* Rubik-Light.ttf */; };
+		6371803D249D3EC600298741 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63718032249D3EC600298741 /* Rubik-Black.ttf */; };
+		6371803E249D3EC600298741 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63718033249D3EC600298741 /* Rubik-BoldItalic.ttf */; };
+		6371803F249D3EC600298741 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63718034249D3EC600298741 /* Rubik-LightItalic.ttf */; };
+		63718040249D3EC600298741 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63718035249D3EC600298741 /* Rubik-Italic.ttf */; };
+		63718041249D3EC600298741 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63718036249D3EC600298741 /* Rubik-Bold.ttf */; };
+		63718042249D3EC600298741 /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63718037249D3EC600298741 /* Rubik-BlackItalic.ttf */; };
+		63718043249D3EC600298741 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63718038249D3EC600298741 /* Rubik-MediumItalic.ttf */; };
+		63718046249D52EF00298741 /* FileKit in Frameworks */ = {isa = PBXBuildFile; productRef = 63718045249D52EF00298741 /* FileKit */; };
+		63718049249D532F00298741 /* Prephirences in Frameworks */ = {isa = PBXBuildFile; productRef = 63718048249D532F00298741 /* Prephirences */; };
+		6371804C249D539F00298741 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6371804B249D539F00298741 /* KeychainSwift */; };
+		6371804F249D53CA00298741 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 6371804E249D53CA00298741 /* MBProgressHUD */; };
+		63B8680E24CF749A00F46816 /* Wavecell.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B8680C24CF746C00F46816 /* Wavecell.xcframework */; };
+		63B8680F24CF749A00F46816 /* Wavecell.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63B8680C24CF746C00F46816 /* Wavecell.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		63C500E824B38427004F5A7B /* CallConnectingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C500E624B38427004F5A7B /* CallConnectingViewController.xib */; };
+		63C500EB24B3842F004F5A7B /* CallSessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C500E924B3842F004F5A7B /* CallSessionViewController.xib */; };
+		63C500EE24B3843C004F5A7B /* CallFailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C500EC24B3843C004F5A7B /* CallFailedViewController.xib */; };
+		63C500F124B38446004F5A7B /* CallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C500EF24B38446004F5A7B /* CallViewController.xib */; };
+		63C500F424B38453004F5A7B /* CallControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C500F224B38453004F5A7B /* CallControlView.xib */; };
+		63C500F724B38458004F5A7B /* CallInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C500F524B38458004F5A7B /* CallInfoView.xib */; };
+		63C500FA24B38466004F5A7B /* ContactAvatarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C500F824B38466004F5A7B /* ContactAvatarView.xib */; };
+		63D0870224AE4EC500A2F367 /* Foundation+Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0870124AE4EC500A2F367 /* Foundation+Observable.swift */; };
+		63D0870424AE50A100A2F367 /* ModelObject+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0870324AE50A100A2F367 /* ModelObject+JSON.swift */; };
+		63D0870724AE517500A2F367 /* Elevate in Frameworks */ = {isa = PBXBuildFile; productRef = 63D0870624AE517500A2F367 /* Elevate */; };
+		63D0870F24AE51BD00A2F367 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0870B24AE51BD00A2F367 /* Profile.swift */; };
+		63D0871224AE523A00A2F367 /* Foundation+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0871124AE523A00A2F367 /* Foundation+Dictionary.swift */; };
+		63D0871724AE52E100A2F367 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0871424AE52E100A2F367 /* Preferences.swift */; };
+		63D0871824AE52E100A2F367 /* Preferences+Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0871524AE52E100A2F367 /* Preferences+Profile.swift */; };
+		63D0871F24AE551E00A2F367 /* Constants+UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0871B24AE551E00A2F367 /* Constants+UIColors.swift */; };
+		63D0872024AE551E00A2F367 /* ConstantKeys+LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0871C24AE551E00A2F367 /* ConstantKeys+LocalizedStrings.swift */; };
+		63D0872124AE551E00A2F367 /* ConstantKeys+Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0871D24AE551E00A2F367 /* ConstantKeys+Preferences.swift */; };
+		63D0872224AE551E00A2F367 /* ConstantKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0871E24AE551E00A2F367 /* ConstantKeys.swift */; };
+		63D0872624AE5B0000A2F367 /* LoggerModules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0872524AE5B0000A2F367 /* LoggerModules.swift */; };
+		63D0873424AE624E00A2F367 /* WavecellClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0872D24AE5F6E00A2F367 /* WavecellClient.swift */; };
+		63D0873524AE625000A2F367 /* WavecellClient+Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0872824AE5F6E00A2F367 /* WavecellClient+Log.swift */; };
+		63D0873624AE625200A2F367 /* WavecellClient+VoiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0872924AE5F6E00A2F367 /* WavecellClient+VoiceCall.swift */; };
+		63D0873724AE625400A2F367 /* WavecellClient+Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0872A24AE5F6E00A2F367 /* WavecellClient+Recents.swift */; };
+		63D0873824AE625600A2F367 /* WavecellClient+Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0872B24AE5F6E00A2F367 /* WavecellClient+Contact.swift */; };
+		63D0873B24AE64ED00A2F367 /* ContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0873A24AE64ED00A2F367 /* ContactManager.swift */; };
+		63D0873C24AE662D00A2F367 /* UserContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0870A24AE51BD00A2F367 /* UserContext.swift */; };
+		63D0873D24AE663000A2F367 /* UserContext+Wavecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0870924AE51BD00A2F367 /* UserContext+Wavecell.swift */; };
+		63D0873E24AE663400A2F367 /* UserContext+Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0870C24AE51BD00A2F367 /* UserContext+Auth.swift */; };
+		63D0874124AE79A700A2F367 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0874024AE79A700A2F367 /* Utilities.swift */; };
+		63D0874324AE7A7800A2F367 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0874224AE7A7800A2F367 /* RootViewController.swift */; };
+		63D0874524AE7B2F00A2F367 /* UIKit+View+Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0874424AE7B2F00A2F367 /* UIKit+View+Xib.swift */; };
+		63D0874724AE7BAC00A2F367 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0874624AE7BAC00A2F367 /* Presenter.swift */; };
+		63D0874B24AE7C3200A2F367 /* AppDelegate+Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0874824AE7C3200A2F367 /* AppDelegate+Log.swift */; };
+		63D0874C24AE7C3200A2F367 /* AppDelegate+DeviceLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0874924AE7C3200A2F367 /* AppDelegate+DeviceLock.swift */; };
+		63D0874D24AE7C3200A2F367 /* AppDelegate+UserContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0874A24AE7C3200A2F367 /* AppDelegate+UserContext.swift */; };
+		63D0874F24AE7D9C00A2F367 /* UIKit+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0874E24AE7D9C00A2F367 /* UIKit+ViewController.swift */; };
+		63D0875624AE7F5600A2F367 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0875024AE7F5600A2F367 /* MainViewController.xib */; };
+		63D0875724AE7F5600A2F367 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0875224AE7F5600A2F367 /* RootViewController.xib */; };
+		63D0875824AE7F5600A2F367 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0875424AE7F5600A2F367 /* LaunchScreen.xib */; };
+		63D0875E24AE808000A2F367 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0875A24AE808000A2F367 /* MainViewController.swift */; };
+		63D0875F24AE808000A2F367 /* RecentCallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0875C24AE808000A2F367 /* RecentCallTableViewCell.swift */; };
+		63D0876024AE808000A2F367 /* ActiveCallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0875D24AE808000A2F367 /* ActiveCallTableViewCell.swift */; };
+		63D0876224AE80D800A2F367 /* UIKit+TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0876124AE80D800A2F367 /* UIKit+TableViewCell.swift */; };
+		63D0877C24AE827600A2F367 /* RecentCallTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0876424AE827600A2F367 /* RecentCallTableViewCell.xib */; };
+		63D0877D24AE827600A2F367 /* PhoneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0876624AE827600A2F367 /* PhoneTableViewCell.xib */; };
+		63D0877E24AE827600A2F367 /* DisplayNameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0876824AE827600A2F367 /* DisplayNameTableViewCell.xib */; };
+		63D0877F24AE827600A2F367 /* InboundOptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0876A24AE827600A2F367 /* InboundOptionTableViewCell.xib */; };
+		63D0878024AE827600A2F367 /* ContactIdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0876C24AE827600A2F367 /* ContactIdTableViewCell.xib */; };
+		63D0878124AE827600A2F367 /* RingtoneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0876E24AE827600A2F367 /* RingtoneTableViewCell.xib */; };
+		63D0878224AE827600A2F367 /* VersionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0877024AE827600A2F367 /* VersionTableViewCell.xib */; };
+		63D0878324AE827600A2F367 /* RingtoneOptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0877224AE827600A2F367 /* RingtoneOptionTableViewCell.xib */; };
+		63D0878424AE827600A2F367 /* DeactivateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0877424AE827600A2F367 /* DeactivateTableViewCell.xib */; };
+		63D0878624AE827600A2F367 /* ActiveCallTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0877824AE827600A2F367 /* ActiveCallTableViewCell.xib */; };
+		63D0878724AE827600A2F367 /* InboundTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0877A24AE827600A2F367 /* InboundTableViewCell.xib */; };
+		63D0879424AE831B00A2F367 /* PhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0878824AE831A00A2F367 /* PhoneViewController.xib */; };
+		63D0879524AE831B00A2F367 /* PlaceCallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0878A24AE831B00A2F367 /* PlaceCallViewController.xib */; };
+		63D0879624AE831B00A2F367 /* UserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0878C24AE831B00A2F367 /* UserProfileViewController.xib */; };
+		63D0879724AE831B00A2F367 /* InboundCallPathViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0878E24AE831B00A2F367 /* InboundCallPathViewController.xib */; };
+		63D0879824AE831B00A2F367 /* DisplayNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0879024AE831B00A2F367 /* DisplayNameViewController.xib */; };
+		63D0879924AE831B00A2F367 /* RingtonesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D0879224AE831B00A2F367 /* RingtonesViewController.xib */; };
+		63D087AD24AE838700A2F367 /* InboundCallPathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0879B24AE838700A2F367 /* InboundCallPathViewController.swift */; };
+		63D087AE24AE838700A2F367 /* RingtonesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0879C24AE838700A2F367 /* RingtonesViewController.swift */; };
+		63D087AF24AE838700A2F367 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0879D24AE838700A2F367 /* UserProfileViewController.swift */; };
+		63D087B024AE838700A2F367 /* RingtoneDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D0879F24AE838700A2F367 /* RingtoneDataSource.swift */; };
+		63D087B124AE838700A2F367 /* DisplayNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087A024AE838700A2F367 /* DisplayNameViewController.swift */; };
+		63D087B224AE838700A2F367 /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087A124AE838700A2F367 /* PhoneViewController.swift */; };
+		63D087B324AE838700A2F367 /* PhoneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087A324AE838700A2F367 /* PhoneTableViewCell.swift */; };
+		63D087B424AE838700A2F367 /* InboundOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087A424AE838700A2F367 /* InboundOptionTableViewCell.swift */; };
+		63D087B524AE838700A2F367 /* ContactIdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087A524AE838700A2F367 /* ContactIdTableViewCell.swift */; };
+		63D087B624AE838700A2F367 /* InboundTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087A624AE838700A2F367 /* InboundTableViewCell.swift */; };
+		63D087B724AE838700A2F367 /* RingtoneOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087A724AE838700A2F367 /* RingtoneOptionTableViewCell.swift */; };
+		63D087B924AE838700A2F367 /* DisplayNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087A924AE838700A2F367 /* DisplayNameTableViewCell.swift */; };
+		63D087BA24AE838700A2F367 /* VersionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087AA24AE838700A2F367 /* VersionTableViewCell.swift */; };
+		63D087BB24AE838700A2F367 /* RingtoneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087AB24AE838700A2F367 /* RingtoneTableViewCell.swift */; };
+		63D087BC24AE838700A2F367 /* DeactivateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087AC24AE838700A2F367 /* DeactivateTableViewCell.swift */; };
+		63D087DC24AE860000A2F367 /* PlaceCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087BF24AE860000A2F367 /* PlaceCallViewController.swift */; };
+		63D087DF24AE860000A2F367 /* CallSession+Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087C424AE860000A2F367 /* CallSession+Call.swift */; };
+		63D087E024AE860000A2F367 /* CallControlThemeAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087C724AE860000A2F367 /* CallControlThemeAppearance.swift */; };
+		63D087E124AE860000A2F367 /* CallConnectingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087C824AE860000A2F367 /* CallConnectingViewController.swift */; };
+		63D087E224AE860000A2F367 /* CallInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087CA24AE860000A2F367 /* CallInfoView.swift */; };
+		63D087E324AE860000A2F367 /* ContactAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087CB24AE860000A2F367 /* ContactAvatarView.swift */; };
+		63D087E424AE860000A2F367 /* CallFailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087CC24AE860000A2F367 /* CallFailedViewController.swift */; };
+		63D087E624AE860000A2F367 /* CallSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087CF24AE860000A2F367 /* CallSessionViewController.swift */; };
+		63D087E724AE860000A2F367 /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087D024AE860000A2F367 /* CallViewController.swift */; };
+		63D087E824AE860000A2F367 /* CallControlActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087D224AE860000A2F367 /* CallControlActionType.swift */; };
+		63D087E924AE860000A2F367 /* CallControlPanelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087D324AE860000A2F367 /* CallControlPanelContainer.swift */; };
+		63D087EA24AE860000A2F367 /* CallControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087D424AE860000A2F367 /* CallControlPanel.swift */; };
+		63D087EB24AE860000A2F367 /* CallControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087D524AE860000A2F367 /* CallControl.swift */; };
+		63D087EC24AE860000A2F367 /* CallAudioControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087D624AE860000A2F367 /* CallAudioControl.swift */; };
+		63D087ED24AE860000A2F367 /* CallControl+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087D724AE860000A2F367 /* CallControl+Appearance.swift */; };
+		63D087EE24AE860000A2F367 /* CallSession+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087D824AE860000A2F367 /* CallSession+ViewModel.swift */; };
+		63D087EF24AE860000A2F367 /* CallSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087D924AE860000A2F367 /* CallSessionManager.swift */; };
+		63D087F024AE860000A2F367 /* CallSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087DA24AE860000A2F367 /* CallSession.swift */; };
+		63D087F124AE860000A2F367 /* CallSession+ViewModel+ControlState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087DB24AE860000A2F367 /* CallSession+ViewModel+ControlState.swift */; };
+		63D087F324AE89AC00A2F367 /* UIKit+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087F224AE89AB00A2F367 /* UIKit+UIButton.swift */; };
+		63D087F524AE8A9100A2F367 /* Preferences+Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D087F424AE8A9100A2F367 /* Preferences+Recents.swift */; };
+		63D087F924AE8CD700A2F367 /* RingtoneB_LOOP.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63D087F724AE8CD700A2F367 /* RingtoneB_LOOP.wav */; };
+		63D087FA24AE8CD700A2F367 /* RingtoneA_LOOP.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63D087F824AE8CD700A2F367 /* RingtoneA_LOOP.wav */; };
+		63DDC55129C8B86300ABE1DA /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DDC55029C8B86300ABE1DA /* Account.swift */; };
+		63DDC55429C8BC6F00ABE1DA /* KeychainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DDC55329C8BC6F00ABE1DA /* KeychainStorage.swift */; };
+		63DDC55629C8BC9A00ABE1DA /* ConstantKeys+Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DDC55529C8BC9A00ABE1DA /* ConstantKeys+Keychain.swift */; };
+		63DDC55B29C8BE4800ABE1DA /* TokenTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DDC55829C8BE4800ABE1DA /* TokenTracker.swift */; };
+		63DDC55C29C8BE4800ABE1DA /* TokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DDC55929C8BE4800ABE1DA /* TokenProvider.swift */; };
+		63DDC55F29C8BED800ABE1DA /* Foundation+Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DDC55E29C8BED800ABE1DA /* Foundation+Strings.swift */; };
+		63DDC56229C8C33B00ABE1DA /* JWTDecode in Frameworks */ = {isa = PBXBuildFile; productRef = 63DDC56129C8C33B00ABE1DA /* JWTDecode */; };
+		63DDC56629C8C7CC00ABE1DA /* Popovers in Frameworks */ = {isa = PBXBuildFile; productRef = 63DDC56529C8C7CC00ABE1DA /* Popovers */; };
+		63DDC56929C8C80100ABE1DA /* AccountSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DDC56729C8C80100ABE1DA /* AccountSetupViewController.swift */; };
+		63DDC56A29C8C80100ABE1DA /* AccountSetupViewController+MenuOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DDC56829C8C80100ABE1DA /* AccountSetupViewController+MenuOptions.swift */; };
+		63DDC56C29C8D32100ABE1DA /* Foundation+Input+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DDC56B29C8D32100ABE1DA /* Foundation+Input+Validation.swift */; };
+		63DDC56F29C8D98300ABE1DA /* AccountSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63DDC56D29C8D98300ABE1DA /* AccountSetupViewController.xib */; };
+		63DDC57229C8F3FC00ABE1DA /* NetworkApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DDC57129C8F3FC00ABE1DA /* NetworkApiClient.swift */; };
+		63DDC57529C8F4EF00ABE1DA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 63DDC57429C8F4EF00ABE1DA /* Alamofire */; };
+		63DDC57629C8F98F00ABE1DA /* RemoteTokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DDC55A29C8BE4800ABE1DA /* RemoteTokenProvider.swift */; };
+		6DF9BDA62A5C7A1F004F9734 /* WavecellClient+AudioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF9BDA52A5C7A1F004F9734 /* WavecellClient+AudioSession.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63CDC603247F155200906735 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				63B8680F24CF749A00F46816 /* Wavecell.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6371800B249D345B00298741 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = App.xcconfig; path = SampleApp/Configurations/App.xcconfig; sourceTree = "<group>"; };
+		6371800C249D345B00298741 /* VersionInfo.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = VersionInfo.xcconfig; path = SampleApp/Configurations/VersionInfo.xcconfig; sourceTree = "<group>"; };
+		6371800D249D345B00298741 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Common.xcconfig; path = SampleApp/Configurations/Common.xcconfig; sourceTree = "<group>"; };
+		6371800E249D345B00298741 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = SampleApp/Configurations/Debug.xcconfig; sourceTree = "<group>"; };
+		6371800F249D345B00298741 /* CodeSign.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = CodeSign.xcconfig; path = SampleApp/Configurations/CodeSign.xcconfig; sourceTree = "<group>"; };
+		63718013249D345B00298741 /* development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = development.xcconfig; sourceTree = "<group>"; };
+		63718015249D345B00298741 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = SampleApp/Configurations/Release.xcconfig; sourceTree = "<group>"; };
+		63718017249D38F000298741 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6371801E249D38F800298741 /* SampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleApp-Info.plist"; sourceTree = "<group>"; };
+		6371801F249D38F800298741 /* SampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleApp.entitlements; sourceTree = "<group>"; };
+		63718026249D394F00298741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6371802A249D3AE100298741 /* lint */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lint; path = scripts/lint; sourceTree = "<group>"; };
+		6371802E249D3EC600298741 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		6371802F249D3EC600298741 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		63718030249D3EC600298741 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		63718031249D3EC600298741 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		63718032249D3EC600298741 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		63718033249D3EC600298741 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		63718034249D3EC600298741 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		63718035249D3EC600298741 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		63718036249D3EC600298741 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		63718037249D3EC600298741 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		63718038249D3EC600298741 /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		63B8680C24CF746C00F46816 /* Wavecell.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Wavecell.xcframework; path = SampleApp/Frameworks/Wavecell.xcframework; sourceTree = "<group>"; };
+		63C500E724B38427004F5A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CallConnectingViewController.xib; sourceTree = "<group>"; };
+		63C500EA24B3842F004F5A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CallSessionViewController.xib; sourceTree = "<group>"; };
+		63C500ED24B3843C004F5A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CallFailedViewController.xib; sourceTree = "<group>"; };
+		63C500F024B38446004F5A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CallViewController.xib; sourceTree = "<group>"; };
+		63C500F324B38453004F5A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CallControlView.xib; sourceTree = "<group>"; };
+		63C500F624B38458004F5A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CallInfoView.xib; sourceTree = "<group>"; };
+		63C500F924B38466004F5A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ContactAvatarView.xib; sourceTree = "<group>"; };
+		63CDC5E8247F125900906735 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D0870124AE4EC500A2F367 /* Foundation+Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Observable.swift"; sourceTree = "<group>"; };
+		63D0870324AE50A100A2F367 /* ModelObject+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ModelObject+JSON.swift"; sourceTree = "<group>"; };
+		63D0870924AE51BD00A2F367 /* UserContext+Wavecell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserContext+Wavecell.swift"; sourceTree = "<group>"; };
+		63D0870A24AE51BD00A2F367 /* UserContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserContext.swift; sourceTree = "<group>"; };
+		63D0870B24AE51BD00A2F367 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		63D0870C24AE51BD00A2F367 /* UserContext+Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserContext+Auth.swift"; sourceTree = "<group>"; };
+		63D0871124AE523A00A2F367 /* Foundation+Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Dictionary.swift"; sourceTree = "<group>"; };
+		63D0871424AE52E100A2F367 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		63D0871524AE52E100A2F367 /* Preferences+Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Preferences+Profile.swift"; sourceTree = "<group>"; };
+		63D0871B24AE551E00A2F367 /* Constants+UIColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Constants+UIColors.swift"; sourceTree = "<group>"; };
+		63D0871C24AE551E00A2F367 /* ConstantKeys+LocalizedStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstantKeys+LocalizedStrings.swift"; sourceTree = "<group>"; };
+		63D0871D24AE551E00A2F367 /* ConstantKeys+Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstantKeys+Preferences.swift"; sourceTree = "<group>"; };
+		63D0871E24AE551E00A2F367 /* ConstantKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantKeys.swift; sourceTree = "<group>"; };
+		63D0872524AE5B0000A2F367 /* LoggerModules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerModules.swift; sourceTree = "<group>"; };
+		63D0872824AE5F6E00A2F367 /* WavecellClient+Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WavecellClient+Log.swift"; sourceTree = "<group>"; };
+		63D0872924AE5F6E00A2F367 /* WavecellClient+VoiceCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WavecellClient+VoiceCall.swift"; sourceTree = "<group>"; };
+		63D0872A24AE5F6E00A2F367 /* WavecellClient+Recents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WavecellClient+Recents.swift"; sourceTree = "<group>"; };
+		63D0872B24AE5F6E00A2F367 /* WavecellClient+Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WavecellClient+Contact.swift"; sourceTree = "<group>"; };
+		63D0872D24AE5F6E00A2F367 /* WavecellClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WavecellClient.swift; sourceTree = "<group>"; };
+		63D0873A24AE64ED00A2F367 /* ContactManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactManager.swift; sourceTree = "<group>"; };
+		63D0874024AE79A700A2F367 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		63D0874224AE7A7800A2F367 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		63D0874424AE7B2F00A2F367 /* UIKit+View+Xib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+View+Xib.swift"; sourceTree = "<group>"; };
+		63D0874624AE7BAC00A2F367 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		63D0874824AE7C3200A2F367 /* AppDelegate+Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Log.swift"; sourceTree = "<group>"; };
+		63D0874924AE7C3200A2F367 /* AppDelegate+DeviceLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+DeviceLock.swift"; sourceTree = "<group>"; };
+		63D0874A24AE7C3200A2F367 /* AppDelegate+UserContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+UserContext.swift"; sourceTree = "<group>"; };
+		63D0874E24AE7D9C00A2F367 /* UIKit+ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+ViewController.swift"; sourceTree = "<group>"; };
+		63D0875124AE7F5600A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		63D0875324AE7F5600A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		63D0875524AE7F5600A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		63D0875A24AE808000A2F367 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		63D0875C24AE808000A2F367 /* RecentCallTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentCallTableViewCell.swift; sourceTree = "<group>"; };
+		63D0875D24AE808000A2F367 /* ActiveCallTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveCallTableViewCell.swift; sourceTree = "<group>"; };
+		63D0876124AE80D800A2F367 /* UIKit+TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+TableViewCell.swift"; sourceTree = "<group>"; };
+		63D0876524AE827600A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/RecentCallTableViewCell.xib; sourceTree = "<group>"; };
+		63D0876724AE827600A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PhoneTableViewCell.xib; sourceTree = "<group>"; };
+		63D0876924AE827600A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DisplayNameTableViewCell.xib; sourceTree = "<group>"; };
+		63D0876B24AE827600A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/InboundOptionTableViewCell.xib; sourceTree = "<group>"; };
+		63D0876D24AE827600A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ContactIdTableViewCell.xib; sourceTree = "<group>"; };
+		63D0876F24AE827600A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/RingtoneTableViewCell.xib; sourceTree = "<group>"; };
+		63D0877124AE827600A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/VersionTableViewCell.xib; sourceTree = "<group>"; };
+		63D0877324AE827600A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/RingtoneOptionTableViewCell.xib; sourceTree = "<group>"; };
+		63D0877524AE827600A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DeactivateTableViewCell.xib; sourceTree = "<group>"; };
+		63D0877924AE827600A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ActiveCallTableViewCell.xib; sourceTree = "<group>"; };
+		63D0877B24AE827600A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/InboundTableViewCell.xib; sourceTree = "<group>"; };
+		63D0878924AE831A00A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PhoneViewController.xib; sourceTree = "<group>"; };
+		63D0878B24AE831B00A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PlaceCallViewController.xib; sourceTree = "<group>"; };
+		63D0878D24AE831B00A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/UserProfileViewController.xib; sourceTree = "<group>"; };
+		63D0878F24AE831B00A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/InboundCallPathViewController.xib; sourceTree = "<group>"; };
+		63D0879124AE831B00A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DisplayNameViewController.xib; sourceTree = "<group>"; };
+		63D0879324AE831B00A2F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/RingtonesViewController.xib; sourceTree = "<group>"; };
+		63D0879B24AE838700A2F367 /* InboundCallPathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboundCallPathViewController.swift; sourceTree = "<group>"; };
+		63D0879C24AE838700A2F367 /* RingtonesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingtonesViewController.swift; sourceTree = "<group>"; };
+		63D0879D24AE838700A2F367 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		63D0879F24AE838700A2F367 /* RingtoneDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingtoneDataSource.swift; sourceTree = "<group>"; };
+		63D087A024AE838700A2F367 /* DisplayNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayNameViewController.swift; sourceTree = "<group>"; };
+		63D087A124AE838700A2F367 /* PhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		63D087A324AE838700A2F367 /* PhoneTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneTableViewCell.swift; sourceTree = "<group>"; };
+		63D087A424AE838700A2F367 /* InboundOptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboundOptionTableViewCell.swift; sourceTree = "<group>"; };
+		63D087A524AE838700A2F367 /* ContactIdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactIdTableViewCell.swift; sourceTree = "<group>"; };
+		63D087A624AE838700A2F367 /* InboundTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboundTableViewCell.swift; sourceTree = "<group>"; };
+		63D087A724AE838700A2F367 /* RingtoneOptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingtoneOptionTableViewCell.swift; sourceTree = "<group>"; };
+		63D087A924AE838700A2F367 /* DisplayNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayNameTableViewCell.swift; sourceTree = "<group>"; };
+		63D087AA24AE838700A2F367 /* VersionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionTableViewCell.swift; sourceTree = "<group>"; };
+		63D087AB24AE838700A2F367 /* RingtoneTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingtoneTableViewCell.swift; sourceTree = "<group>"; };
+		63D087AC24AE838700A2F367 /* DeactivateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeactivateTableViewCell.swift; sourceTree = "<group>"; };
+		63D087BF24AE860000A2F367 /* PlaceCallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceCallViewController.swift; sourceTree = "<group>"; };
+		63D087C424AE860000A2F367 /* CallSession+Call.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CallSession+Call.swift"; sourceTree = "<group>"; };
+		63D087C724AE860000A2F367 /* CallControlThemeAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallControlThemeAppearance.swift; sourceTree = "<group>"; };
+		63D087C824AE860000A2F367 /* CallConnectingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallConnectingViewController.swift; sourceTree = "<group>"; };
+		63D087CA24AE860000A2F367 /* CallInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallInfoView.swift; sourceTree = "<group>"; };
+		63D087CB24AE860000A2F367 /* ContactAvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactAvatarView.swift; sourceTree = "<group>"; };
+		63D087CC24AE860000A2F367 /* CallFailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallFailedViewController.swift; sourceTree = "<group>"; };
+		63D087CF24AE860000A2F367 /* CallSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallSessionViewController.swift; sourceTree = "<group>"; };
+		63D087D024AE860000A2F367 /* CallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
+		63D087D224AE860000A2F367 /* CallControlActionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallControlActionType.swift; sourceTree = "<group>"; };
+		63D087D324AE860000A2F367 /* CallControlPanelContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallControlPanelContainer.swift; sourceTree = "<group>"; };
+		63D087D424AE860000A2F367 /* CallControlPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallControlPanel.swift; sourceTree = "<group>"; };
+		63D087D524AE860000A2F367 /* CallControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallControl.swift; sourceTree = "<group>"; };
+		63D087D624AE860000A2F367 /* CallAudioControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallAudioControl.swift; sourceTree = "<group>"; };
+		63D087D724AE860000A2F367 /* CallControl+Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CallControl+Appearance.swift"; sourceTree = "<group>"; };
+		63D087D824AE860000A2F367 /* CallSession+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CallSession+ViewModel.swift"; sourceTree = "<group>"; };
+		63D087D924AE860000A2F367 /* CallSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallSessionManager.swift; sourceTree = "<group>"; };
+		63D087DA24AE860000A2F367 /* CallSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallSession.swift; sourceTree = "<group>"; };
+		63D087DB24AE860000A2F367 /* CallSession+ViewModel+ControlState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CallSession+ViewModel+ControlState.swift"; sourceTree = "<group>"; };
+		63D087F224AE89AB00A2F367 /* UIKit+UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+UIButton.swift"; sourceTree = "<group>"; };
+		63D087F424AE8A9100A2F367 /* Preferences+Recents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Preferences+Recents.swift"; sourceTree = "<group>"; };
+		63D087F724AE8CD700A2F367 /* RingtoneB_LOOP.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RingtoneB_LOOP.wav; sourceTree = "<group>"; };
+		63D087F824AE8CD700A2F367 /* RingtoneA_LOOP.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RingtoneA_LOOP.wav; sourceTree = "<group>"; };
+		63DDC55029C8B86300ABE1DA /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		63DDC55329C8BC6F00ABE1DA /* KeychainStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainStorage.swift; sourceTree = "<group>"; };
+		63DDC55529C8BC9A00ABE1DA /* ConstantKeys+Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstantKeys+Keychain.swift"; sourceTree = "<group>"; };
+		63DDC55829C8BE4800ABE1DA /* TokenTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenTracker.swift; sourceTree = "<group>"; };
+		63DDC55929C8BE4800ABE1DA /* TokenProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenProvider.swift; sourceTree = "<group>"; };
+		63DDC55A29C8BE4800ABE1DA /* RemoteTokenProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteTokenProvider.swift; sourceTree = "<group>"; };
+		63DDC55E29C8BED800ABE1DA /* Foundation+Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Strings.swift"; sourceTree = "<group>"; };
+		63DDC56729C8C80100ABE1DA /* AccountSetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSetupViewController.swift; sourceTree = "<group>"; };
+		63DDC56829C8C80100ABE1DA /* AccountSetupViewController+MenuOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AccountSetupViewController+MenuOptions.swift"; sourceTree = "<group>"; };
+		63DDC56B29C8D32100ABE1DA /* Foundation+Input+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Input+Validation.swift"; sourceTree = "<group>"; };
+		63DDC56E29C8D98300ABE1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AccountSetupViewController.xib; sourceTree = "<group>"; };
+		63DDC57129C8F3FC00ABE1DA /* NetworkApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkApiClient.swift; sourceTree = "<group>"; };
+		6DF9BDA52A5C7A1F004F9734 /* WavecellClient+AudioSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WavecellClient+AudioSession.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63CDC5E5247F125900906735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DDC57529C8F4EF00ABE1DA /* Alamofire in Frameworks */,
+				63B8680E24CF749A00F46816 /* Wavecell.xcframework in Frameworks */,
+				6371804F249D53CA00298741 /* MBProgressHUD in Frameworks */,
+				63718049249D532F00298741 /* Prephirences in Frameworks */,
+				63718046249D52EF00298741 /* FileKit in Frameworks */,
+				63D0870724AE517500A2F367 /* Elevate in Frameworks */,
+				6371804C249D539F00298741 /* KeychainSwift in Frameworks */,
+				63DDC56629C8C7CC00ABE1DA /* Popovers in Frameworks */,
+				63DDC56229C8C33B00ABE1DA /* JWTDecode in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63718009249D344C00298741 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				6371800D249D345B00298741 /* Common.xcconfig */,
+				6371800E249D345B00298741 /* Debug.xcconfig */,
+				63718015249D345B00298741 /* Release.xcconfig */,
+				6371800B249D345B00298741 /* App.xcconfig */,
+				6371800C249D345B00298741 /* VersionInfo.xcconfig */,
+				6371800F249D345B00298741 /* CodeSign.xcconfig */,
+				63718010249D345B00298741 /* CodeSign */,
+			);
+			name = Configurations;
+			sourceTree = "<group>";
+		};
+		63718010249D345B00298741 /* CodeSign */ = {
+			isa = PBXGroup;
+			children = (
+				63718013249D345B00298741 /* development.xcconfig */,
+			);
+			name = CodeSign;
+			path = SampleApp/Configurations/CodeSign;
+			sourceTree = "<group>";
+		};
+		63718016249D38F000298741 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				63D0870024AE4EC500A2F367 /* Extensions */,
+				63D0873F24AE79A700A2F367 /* Utilities */,
+				63D0872424AE5B0000A2F367 /* Logger */,
+				63D0871A24AE551E00A2F367 /* Constants */,
+				63DDC55229C8BC6F00ABE1DA /* Keychain */,
+				63D0871324AE52E100A2F367 /* Preferences */,
+				63D0873924AE64ED00A2F367 /* Contacts */,
+				63D0870824AE51BD00A2F367 /* UserContext */,
+				63D0872724AE5F6E00A2F367 /* WavecellClient */,
+				63D0875924AE808000A2F367 /* MainScreen */,
+				63D0879A24AE838700A2F367 /* UserProfile */,
+				63D087BD24AE860000A2F367 /* Call */,
+				63DDC56329C8C6FE00ABE1DA /* AccountSetup */,
+				63DDC57029C8F29B00ABE1DA /* Networking */,
+				63718017249D38F000298741 /* AppDelegate.swift */,
+				63D0874924AE7C3200A2F367 /* AppDelegate+DeviceLock.swift */,
+				63D0874824AE7C3200A2F367 /* AppDelegate+Log.swift */,
+				63D0874A24AE7C3200A2F367 /* AppDelegate+UserContext.swift */,
+				63D0874224AE7A7800A2F367 /* RootViewController.swift */,
+				63D0874624AE7BAC00A2F367 /* Presenter.swift */,
+			);
+			name = Sources;
+			path = App/Sources;
+			sourceTree = "<group>";
+		};
+		6371801D249D38F800298741 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6371801E249D38F800298741 /* SampleApp-Info.plist */,
+				6371801F249D38F800298741 /* SampleApp.entitlements */,
+				63718026249D394F00298741 /* Assets.xcassets */,
+				63D087F624AE8CD700A2F367 /* Ringtones */,
+				6371802D249D3EC600298741 /* Fonts */,
+				63D0875424AE7F5600A2F367 /* LaunchScreen.xib */,
+				63D0875224AE7F5600A2F367 /* RootViewController.xib */,
+				63D0875024AE7F5600A2F367 /* MainViewController.xib */,
+				63DDC56D29C8D98300ABE1DA /* AccountSetupViewController.xib */,
+				63D0878A24AE831B00A2F367 /* PlaceCallViewController.xib */,
+				63D0878C24AE831B00A2F367 /* UserProfileViewController.xib */,
+				63D0878824AE831A00A2F367 /* PhoneViewController.xib */,
+				63D0879024AE831B00A2F367 /* DisplayNameViewController.xib */,
+				63D0878E24AE831B00A2F367 /* InboundCallPathViewController.xib */,
+				63D0879224AE831B00A2F367 /* RingtonesViewController.xib */,
+				63C500E924B3842F004F5A7B /* CallSessionViewController.xib */,
+				63C500E624B38427004F5A7B /* CallConnectingViewController.xib */,
+				63C500EC24B3843C004F5A7B /* CallFailedViewController.xib */,
+				63C500EF24B38446004F5A7B /* CallViewController.xib */,
+				63C500F224B38453004F5A7B /* CallControlView.xib */,
+				63C500F524B38458004F5A7B /* CallInfoView.xib */,
+				63C500F824B38466004F5A7B /* ContactAvatarView.xib */,
+				63D0876324AE827600A2F367 /* TableViewCells */,
+			);
+			name = Resources;
+			path = App/Resources;
+			sourceTree = "<group>";
+		};
+		63718029249D3AD000298741 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				6371802A249D3AE100298741 /* lint */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		6371802D249D3EC600298741 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6371802E249D3EC600298741 /* OFL.txt */,
+				6371802F249D3EC600298741 /* Rubik-Regular.ttf */,
+				63718030249D3EC600298741 /* Rubik-Medium.ttf */,
+				63718031249D3EC600298741 /* Rubik-Light.ttf */,
+				63718032249D3EC600298741 /* Rubik-Black.ttf */,
+				63718033249D3EC600298741 /* Rubik-BoldItalic.ttf */,
+				63718034249D3EC600298741 /* Rubik-LightItalic.ttf */,
+				63718035249D3EC600298741 /* Rubik-Italic.ttf */,
+				63718036249D3EC600298741 /* Rubik-Bold.ttf */,
+				63718037249D3EC600298741 /* Rubik-BlackItalic.ttf */,
+				63718038249D3EC600298741 /* Rubik-MediumItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		63CDC5DF247F125900906735 = {
+			isa = PBXGroup;
+			children = (
+				63718009249D344C00298741 /* Configurations */,
+				63718029249D3AD000298741 /* Scripts */,
+				63CDC5EA247F125900906735 /* SampleApp */,
+				63CDC5E9247F125900906735 /* Products */,
+				63CDC608247F197C00906735 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63CDC5E9247F125900906735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63CDC5E8247F125900906735 /* SampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63CDC5EA247F125900906735 /* SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				63718016249D38F000298741 /* Sources */,
+				6371801D249D38F800298741 /* Resources */,
+			);
+			path = SampleApp;
+			sourceTree = "<group>";
+		};
+		63CDC608247F197C00906735 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63B8680C24CF746C00F46816 /* Wavecell.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63D0870024AE4EC500A2F367 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				63DDC56B29C8D32100ABE1DA /* Foundation+Input+Validation.swift */,
+				63DDC55E29C8BED800ABE1DA /* Foundation+Strings.swift */,
+				63D0870124AE4EC500A2F367 /* Foundation+Observable.swift */,
+				63D0871124AE523A00A2F367 /* Foundation+Dictionary.swift */,
+				63D0870324AE50A100A2F367 /* ModelObject+JSON.swift */,
+				63D0874424AE7B2F00A2F367 /* UIKit+View+Xib.swift */,
+				63D0874E24AE7D9C00A2F367 /* UIKit+ViewController.swift */,
+				63D0876124AE80D800A2F367 /* UIKit+TableViewCell.swift */,
+				63D087F224AE89AB00A2F367 /* UIKit+UIButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		63D0870824AE51BD00A2F367 /* UserContext */ = {
+			isa = PBXGroup;
+			children = (
+				63DDC55029C8B86300ABE1DA /* Account.swift */,
+				63D0870B24AE51BD00A2F367 /* Profile.swift */,
+				63D0870A24AE51BD00A2F367 /* UserContext.swift */,
+				63D0870924AE51BD00A2F367 /* UserContext+Wavecell.swift */,
+				63D0870C24AE51BD00A2F367 /* UserContext+Auth.swift */,
+				63DDC55729C8BE4800ABE1DA /* AccessToken */,
+			);
+			path = UserContext;
+			sourceTree = "<group>";
+		};
+		63D0871324AE52E100A2F367 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				63D0871424AE52E100A2F367 /* Preferences.swift */,
+				63D0871524AE52E100A2F367 /* Preferences+Profile.swift */,
+				63D087F424AE8A9100A2F367 /* Preferences+Recents.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		63D0871A24AE551E00A2F367 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				63D0871E24AE551E00A2F367 /* ConstantKeys.swift */,
+				63DDC55529C8BC9A00ABE1DA /* ConstantKeys+Keychain.swift */,
+				63D0871B24AE551E00A2F367 /* Constants+UIColors.swift */,
+				63D0871C24AE551E00A2F367 /* ConstantKeys+LocalizedStrings.swift */,
+				63D0871D24AE551E00A2F367 /* ConstantKeys+Preferences.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		63D0872424AE5B0000A2F367 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				63D0872524AE5B0000A2F367 /* LoggerModules.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		63D0872724AE5F6E00A2F367 /* WavecellClient */ = {
+			isa = PBXGroup;
+			children = (
+				63D0872D24AE5F6E00A2F367 /* WavecellClient.swift */,
+				63D0872824AE5F6E00A2F367 /* WavecellClient+Log.swift */,
+				63D0872924AE5F6E00A2F367 /* WavecellClient+VoiceCall.swift */,
+				63D0872A24AE5F6E00A2F367 /* WavecellClient+Recents.swift */,
+				63D0872B24AE5F6E00A2F367 /* WavecellClient+Contact.swift */,
+				6DF9BDA52A5C7A1F004F9734 /* WavecellClient+AudioSession.swift */,
+			);
+			path = WavecellClient;
+			sourceTree = "<group>";
+		};
+		63D0873924AE64ED00A2F367 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				63D0873A24AE64ED00A2F367 /* ContactManager.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		63D0873F24AE79A700A2F367 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				63D0874024AE79A700A2F367 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		63D0875924AE808000A2F367 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				63D0875A24AE808000A2F367 /* MainViewController.swift */,
+				63D0875B24AE808000A2F367 /* TableView */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		63D0875B24AE808000A2F367 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				63D0875C24AE808000A2F367 /* RecentCallTableViewCell.swift */,
+				63D0875D24AE808000A2F367 /* ActiveCallTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		63D0876324AE827600A2F367 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				63D0877824AE827600A2F367 /* ActiveCallTableViewCell.xib */,
+				63D0876424AE827600A2F367 /* RecentCallTableViewCell.xib */,
+				63D0876624AE827600A2F367 /* PhoneTableViewCell.xib */,
+				63D0876824AE827600A2F367 /* DisplayNameTableViewCell.xib */,
+				63D0876A24AE827600A2F367 /* InboundOptionTableViewCell.xib */,
+				63D0876C24AE827600A2F367 /* ContactIdTableViewCell.xib */,
+				63D0876E24AE827600A2F367 /* RingtoneTableViewCell.xib */,
+				63D0877024AE827600A2F367 /* VersionTableViewCell.xib */,
+				63D0877224AE827600A2F367 /* RingtoneOptionTableViewCell.xib */,
+				63D0877424AE827600A2F367 /* DeactivateTableViewCell.xib */,
+				63D0877A24AE827600A2F367 /* InboundTableViewCell.xib */,
+			);
+			name = TableViewCells;
+			path = Base.lproj/TableViewCells;
+			sourceTree = "<group>";
+		};
+		63D0879A24AE838700A2F367 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				63D0879D24AE838700A2F367 /* UserProfileViewController.swift */,
+				63D087A024AE838700A2F367 /* DisplayNameViewController.swift */,
+				63D087A124AE838700A2F367 /* PhoneViewController.swift */,
+				63D0879C24AE838700A2F367 /* RingtonesViewController.swift */,
+				63D0879B24AE838700A2F367 /* InboundCallPathViewController.swift */,
+				63D0879E24AE838700A2F367 /* Ringtones */,
+				63D087A224AE838700A2F367 /* TableView */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		63D0879E24AE838700A2F367 /* Ringtones */ = {
+			isa = PBXGroup;
+			children = (
+				63D0879F24AE838700A2F367 /* RingtoneDataSource.swift */,
+			);
+			path = Ringtones;
+			sourceTree = "<group>";
+		};
+		63D087A224AE838700A2F367 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				63D087A324AE838700A2F367 /* PhoneTableViewCell.swift */,
+				63D087A424AE838700A2F367 /* InboundOptionTableViewCell.swift */,
+				63D087A524AE838700A2F367 /* ContactIdTableViewCell.swift */,
+				63D087A624AE838700A2F367 /* InboundTableViewCell.swift */,
+				63D087A724AE838700A2F367 /* RingtoneOptionTableViewCell.swift */,
+				63D087A924AE838700A2F367 /* DisplayNameTableViewCell.swift */,
+				63D087AA24AE838700A2F367 /* VersionTableViewCell.swift */,
+				63D087AB24AE838700A2F367 /* RingtoneTableViewCell.swift */,
+				63D087AC24AE838700A2F367 /* DeactivateTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		63D087BD24AE860000A2F367 /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				63D087BE24AE860000A2F367 /* PlaceCall */,
+				63D087C324AE860000A2F367 /* Session */,
+			);
+			path = Call;
+			sourceTree = "<group>";
+		};
+		63D087BE24AE860000A2F367 /* PlaceCall */ = {
+			isa = PBXGroup;
+			children = (
+				63D087BF24AE860000A2F367 /* PlaceCallViewController.swift */,
+			);
+			path = PlaceCall;
+			sourceTree = "<group>";
+		};
+		63D087C324AE860000A2F367 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				63D087C524AE860000A2F367 /* UI */,
+				63D087D924AE860000A2F367 /* CallSessionManager.swift */,
+				63D087DA24AE860000A2F367 /* CallSession.swift */,
+				63D087C424AE860000A2F367 /* CallSession+Call.swift */,
+				63D087D824AE860000A2F367 /* CallSession+ViewModel.swift */,
+				63D087DB24AE860000A2F367 /* CallSession+ViewModel+ControlState.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		63D087C524AE860000A2F367 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				63D087C624AE860000A2F367 /* Appearance */,
+				63D087C924AE860000A2F367 /* CallInfo */,
+				63D087D124AE860000A2F367 /* CallControls */,
+				63D087CF24AE860000A2F367 /* CallSessionViewController.swift */,
+				63D087D024AE860000A2F367 /* CallViewController.swift */,
+				63D087C824AE860000A2F367 /* CallConnectingViewController.swift */,
+				63D087CC24AE860000A2F367 /* CallFailedViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		63D087C624AE860000A2F367 /* Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				63D087C724AE860000A2F367 /* CallControlThemeAppearance.swift */,
+			);
+			path = Appearance;
+			sourceTree = "<group>";
+		};
+		63D087C924AE860000A2F367 /* CallInfo */ = {
+			isa = PBXGroup;
+			children = (
+				63D087CA24AE860000A2F367 /* CallInfoView.swift */,
+				63D087CB24AE860000A2F367 /* ContactAvatarView.swift */,
+			);
+			path = CallInfo;
+			sourceTree = "<group>";
+		};
+		63D087D124AE860000A2F367 /* CallControls */ = {
+			isa = PBXGroup;
+			children = (
+				63D087D224AE860000A2F367 /* CallControlActionType.swift */,
+				63D087D324AE860000A2F367 /* CallControlPanelContainer.swift */,
+				63D087D424AE860000A2F367 /* CallControlPanel.swift */,
+				63D087D524AE860000A2F367 /* CallControl.swift */,
+				63D087D624AE860000A2F367 /* CallAudioControl.swift */,
+				63D087D724AE860000A2F367 /* CallControl+Appearance.swift */,
+			);
+			path = CallControls;
+			sourceTree = "<group>";
+		};
+		63D087F624AE8CD700A2F367 /* Ringtones */ = {
+			isa = PBXGroup;
+			children = (
+				63D087F724AE8CD700A2F367 /* RingtoneB_LOOP.wav */,
+				63D087F824AE8CD700A2F367 /* RingtoneA_LOOP.wav */,
+			);
+			path = Ringtones;
+			sourceTree = "<group>";
+		};
+		63DDC55229C8BC6F00ABE1DA /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				63DDC55329C8BC6F00ABE1DA /* KeychainStorage.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		63DDC55729C8BE4800ABE1DA /* AccessToken */ = {
+			isa = PBXGroup;
+			children = (
+				63DDC55929C8BE4800ABE1DA /* TokenProvider.swift */,
+				63DDC55A29C8BE4800ABE1DA /* RemoteTokenProvider.swift */,
+				63DDC55829C8BE4800ABE1DA /* TokenTracker.swift */,
+			);
+			path = AccessToken;
+			sourceTree = "<group>";
+		};
+		63DDC56329C8C6FE00ABE1DA /* AccountSetup */ = {
+			isa = PBXGroup;
+			children = (
+				63DDC56729C8C80100ABE1DA /* AccountSetupViewController.swift */,
+				63DDC56829C8C80100ABE1DA /* AccountSetupViewController+MenuOptions.swift */,
+			);
+			path = AccountSetup;
+			sourceTree = "<group>";
+		};
+		63DDC57029C8F29B00ABE1DA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				63DDC57129C8F3FC00ABE1DA /* NetworkApiClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63CDC5E7247F125900906735 /* SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63CDC5FC247F125A00906735 /* Build configuration list for PBXNativeTarget "SampleApp" */;
+			buildPhases = (
+				6371802C249D3B4000298741 /* Run SwiftLint */,
+				63CDC5E4247F125900906735 /* Sources */,
+				63CDC5E5247F125900906735 /* Frameworks */,
+				63CDC5E6247F125900906735 /* Resources */,
+				63CDC603247F155200906735 /* Embed Frameworks */,
+				63B3350A24D4B0060040242D /* Code Sign Embedded Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleApp;
+			packageProductDependencies = (
+				63718045249D52EF00298741 /* FileKit */,
+				63718048249D532F00298741 /* Prephirences */,
+				6371804B249D539F00298741 /* KeychainSwift */,
+				6371804E249D53CA00298741 /* MBProgressHUD */,
+				63D0870624AE517500A2F367 /* Elevate */,
+				63DDC56129C8C33B00ABE1DA /* JWTDecode */,
+				63DDC56529C8C7CC00ABE1DA /* Popovers */,
+				63DDC57429C8F4EF00ABE1DA /* Alamofire */,
+			);
+			productName = SampleApp;
+			productReference = 63CDC5E8247F125900906735 /* SampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63CDC5E0247F125900906735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = "8x8, Inc.";
+				TargetAttributes = {
+					63CDC5E7247F125900906735 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 63CDC5E3247F125900906735 /* Build configuration list for PBXProject "SampleApp" */;
+			compatibilityVersion = "Xcode 11.4";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63CDC5DF247F125900906735;
+			packageReferences = (
+				63718044249D52EF00298741 /* XCRemoteSwiftPackageReference "FileKit" */,
+				63718047249D532F00298741 /* XCRemoteSwiftPackageReference "Prephirences" */,
+				6371804A249D539F00298741 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				6371804D249D53CA00298741 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				63D0870524AE517500A2F367 /* XCRemoteSwiftPackageReference "Elevate" */,
+				63DDC56029C8C33B00ABE1DA /* XCRemoteSwiftPackageReference "JWTDecode" */,
+				63DDC56429C8C7CC00ABE1DA /* XCRemoteSwiftPackageReference "Popovers" */,
+				63DDC57329C8F4EF00ABE1DA /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 63CDC5E9247F125900906735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63CDC5E7247F125900906735 /* SampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63CDC5E6247F125900906735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D0878224AE827600A2F367 /* VersionTableViewCell.xib in Resources */,
+				63D0878624AE827600A2F367 /* ActiveCallTableViewCell.xib in Resources */,
+				63718041249D3EC600298741 /* Rubik-Bold.ttf in Resources */,
+				63D0875624AE7F5600A2F367 /* MainViewController.xib in Resources */,
+				63D0879924AE831B00A2F367 /* RingtonesViewController.xib in Resources */,
+				6371803F249D3EC600298741 /* Rubik-LightItalic.ttf in Resources */,
+				63D0877E24AE827600A2F367 /* DisplayNameTableViewCell.xib in Resources */,
+				63D0878324AE827600A2F367 /* RingtoneOptionTableViewCell.xib in Resources */,
+				63718027249D394F00298741 /* Assets.xcassets in Resources */,
+				63D0879824AE831B00A2F367 /* DisplayNameViewController.xib in Resources */,
+				63D0877F24AE827600A2F367 /* InboundOptionTableViewCell.xib in Resources */,
+				63D0875724AE7F5600A2F367 /* RootViewController.xib in Resources */,
+				63C500F724B38458004F5A7B /* CallInfoView.xib in Resources */,
+				63D087FA24AE8CD700A2F367 /* RingtoneA_LOOP.wav in Resources */,
+				63D0878724AE827600A2F367 /* InboundTableViewCell.xib in Resources */,
+				63D0879724AE831B00A2F367 /* InboundCallPathViewController.xib in Resources */,
+				63C500EE24B3843C004F5A7B /* CallFailedViewController.xib in Resources */,
+				63C500F124B38446004F5A7B /* CallViewController.xib in Resources */,
+				6371803D249D3EC600298741 /* Rubik-Black.ttf in Resources */,
+				63718039249D3EC600298741 /* OFL.txt in Resources */,
+				6371803B249D3EC600298741 /* Rubik-Medium.ttf in Resources */,
+				63718040249D3EC600298741 /* Rubik-Italic.ttf in Resources */,
+				63C500E824B38427004F5A7B /* CallConnectingViewController.xib in Resources */,
+				63D0878024AE827600A2F367 /* ContactIdTableViewCell.xib in Resources */,
+				63D0879524AE831B00A2F367 /* PlaceCallViewController.xib in Resources */,
+				63D087F924AE8CD700A2F367 /* RingtoneB_LOOP.wav in Resources */,
+				6371803A249D3EC600298741 /* Rubik-Regular.ttf in Resources */,
+				63D0875824AE7F5600A2F367 /* LaunchScreen.xib in Resources */,
+				63D0879624AE831B00A2F367 /* UserProfileViewController.xib in Resources */,
+				63C500FA24B38466004F5A7B /* ContactAvatarView.xib in Resources */,
+				63718042249D3EC600298741 /* Rubik-BlackItalic.ttf in Resources */,
+				63D0879424AE831B00A2F367 /* PhoneViewController.xib in Resources */,
+				63D0878424AE827600A2F367 /* DeactivateTableViewCell.xib in Resources */,
+				63C500F424B38453004F5A7B /* CallControlView.xib in Resources */,
+				63D0877C24AE827600A2F367 /* RecentCallTableViewCell.xib in Resources */,
+				63DDC56F29C8D98300ABE1DA /* AccountSetupViewController.xib in Resources */,
+				6371803C249D3EC600298741 /* Rubik-Light.ttf in Resources */,
+				63D0878124AE827600A2F367 /* RingtoneTableViewCell.xib in Resources */,
+				63D0877D24AE827600A2F367 /* PhoneTableViewCell.xib in Resources */,
+				63C500EB24B3842F004F5A7B /* CallSessionViewController.xib in Resources */,
+				63718043249D3EC600298741 /* Rubik-MediumItalic.ttf in Resources */,
+				6371803E249D3EC600298741 /* Rubik-BoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6371802C249D3B4000298741 /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "./scripts/lint/swift-lint.sh \"$LINT_FOLDER_LIST\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63B3350A24D4B0060040242D /* Code Sign Embedded Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Code Sign Embedded Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "if [[ \"$PLATFORM_NAME\" != \"iphonesimulator\" ]]; then\n    ./scripts/strip/strip.sh >/dev/null\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63CDC5E4247F125900906735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D087E224AE860000A2F367 /* CallInfoView.swift in Sources */,
+				63D0873D24AE663000A2F367 /* UserContext+Wavecell.swift in Sources */,
+				63D087AE24AE838700A2F367 /* RingtonesViewController.swift in Sources */,
+				63D087B724AE838700A2F367 /* RingtoneOptionTableViewCell.swift in Sources */,
+				63D0873C24AE662D00A2F367 /* UserContext.swift in Sources */,
+				63D0873624AE625200A2F367 /* WavecellClient+VoiceCall.swift in Sources */,
+				63D0876224AE80D800A2F367 /* UIKit+TableViewCell.swift in Sources */,
+				63D087EE24AE860000A2F367 /* CallSession+ViewModel.swift in Sources */,
+				63DDC56C29C8D32100ABE1DA /* Foundation+Input+Validation.swift in Sources */,
+				63DDC55B29C8BE4800ABE1DA /* TokenTracker.swift in Sources */,
+				63D087E624AE860000A2F367 /* CallSessionViewController.swift in Sources */,
+				63D087E124AE860000A2F367 /* CallConnectingViewController.swift in Sources */,
+				63DDC57629C8F98F00ABE1DA /* RemoteTokenProvider.swift in Sources */,
+				63D087EB24AE860000A2F367 /* CallControl.swift in Sources */,
+				63D0873724AE625400A2F367 /* WavecellClient+Recents.swift in Sources */,
+				63D0871F24AE551E00A2F367 /* Constants+UIColors.swift in Sources */,
+				63D087B024AE838700A2F367 /* RingtoneDataSource.swift in Sources */,
+				63D087BC24AE838700A2F367 /* DeactivateTableViewCell.swift in Sources */,
+				63D0874124AE79A700A2F367 /* Utilities.swift in Sources */,
+				63D0874524AE7B2F00A2F367 /* UIKit+View+Xib.swift in Sources */,
+				63D0873524AE625000A2F367 /* WavecellClient+Log.swift in Sources */,
+				63DDC55429C8BC6F00ABE1DA /* KeychainStorage.swift in Sources */,
+				63D0874724AE7BAC00A2F367 /* Presenter.swift in Sources */,
+				63D0875E24AE808000A2F367 /* MainViewController.swift in Sources */,
+				63D087E724AE860000A2F367 /* CallViewController.swift in Sources */,
+				63D087BB24AE838700A2F367 /* RingtoneTableViewCell.swift in Sources */,
+				63D0872224AE551E00A2F367 /* ConstantKeys.swift in Sources */,
+				63D0872624AE5B0000A2F367 /* LoggerModules.swift in Sources */,
+				63D0873824AE625600A2F367 /* WavecellClient+Contact.swift in Sources */,
+				63D087E424AE860000A2F367 /* CallFailedViewController.swift in Sources */,
+				63D087EF24AE860000A2F367 /* CallSessionManager.swift in Sources */,
+				63D0874B24AE7C3200A2F367 /* AppDelegate+Log.swift in Sources */,
+				63D087DF24AE860000A2F367 /* CallSession+Call.swift in Sources */,
+				63D0870F24AE51BD00A2F367 /* Profile.swift in Sources */,
+				63D087B124AE838700A2F367 /* DisplayNameViewController.swift in Sources */,
+				63D087BA24AE838700A2F367 /* VersionTableViewCell.swift in Sources */,
+				63D0871224AE523A00A2F367 /* Foundation+Dictionary.swift in Sources */,
+				63D0873B24AE64ED00A2F367 /* ContactManager.swift in Sources */,
+				63D0870224AE4EC500A2F367 /* Foundation+Observable.swift in Sources */,
+				63D0875F24AE808000A2F367 /* RecentCallTableViewCell.swift in Sources */,
+				63D087EA24AE860000A2F367 /* CallControlPanel.swift in Sources */,
+				63D087B924AE838700A2F367 /* DisplayNameTableViewCell.swift in Sources */,
+				63D087F524AE8A9100A2F367 /* Preferences+Recents.swift in Sources */,
+				63DDC56A29C8C80100ABE1DA /* AccountSetupViewController+MenuOptions.swift in Sources */,
+				63D0876024AE808000A2F367 /* ActiveCallTableViewCell.swift in Sources */,
+				63D087E324AE860000A2F367 /* ContactAvatarView.swift in Sources */,
+				63D087EC24AE860000A2F367 /* CallAudioControl.swift in Sources */,
+				63DDC55629C8BC9A00ABE1DA /* ConstantKeys+Keychain.swift in Sources */,
+				63D087E924AE860000A2F367 /* CallControlPanelContainer.swift in Sources */,
+				63D087F324AE89AC00A2F367 /* UIKit+UIButton.swift in Sources */,
+				63D087DC24AE860000A2F367 /* PlaceCallViewController.swift in Sources */,
+				63D087B324AE838700A2F367 /* PhoneTableViewCell.swift in Sources */,
+				6DF9BDA62A5C7A1F004F9734 /* WavecellClient+AudioSession.swift in Sources */,
+				63D087ED24AE860000A2F367 /* CallControl+Appearance.swift in Sources */,
+				63D087F124AE860000A2F367 /* CallSession+ViewModel+ControlState.swift in Sources */,
+				63D0874324AE7A7800A2F367 /* RootViewController.swift in Sources */,
+				63D0871824AE52E100A2F367 /* Preferences+Profile.swift in Sources */,
+				63D0872024AE551E00A2F367 /* ConstantKeys+LocalizedStrings.swift in Sources */,
+				63D087AF24AE838700A2F367 /* UserProfileViewController.swift in Sources */,
+				63D0874F24AE7D9C00A2F367 /* UIKit+ViewController.swift in Sources */,
+				63D0874D24AE7C3200A2F367 /* AppDelegate+UserContext.swift in Sources */,
+				63D0870424AE50A100A2F367 /* ModelObject+JSON.swift in Sources */,
+				63DDC55F29C8BED800ABE1DA /* Foundation+Strings.swift in Sources */,
+				63DDC55129C8B86300ABE1DA /* Account.swift in Sources */,
+				63D0872124AE551E00A2F367 /* ConstantKeys+Preferences.swift in Sources */,
+				63D087E824AE860000A2F367 /* CallControlActionType.swift in Sources */,
+				63DDC57229C8F3FC00ABE1DA /* NetworkApiClient.swift in Sources */,
+				63D087B524AE838700A2F367 /* ContactIdTableViewCell.swift in Sources */,
+				63D0873424AE624E00A2F367 /* WavecellClient.swift in Sources */,
+				63D087B424AE838700A2F367 /* InboundOptionTableViewCell.swift in Sources */,
+				63D0873E24AE663400A2F367 /* UserContext+Auth.swift in Sources */,
+				63D087E024AE860000A2F367 /* CallControlThemeAppearance.swift in Sources */,
+				63D0874C24AE7C3200A2F367 /* AppDelegate+DeviceLock.swift in Sources */,
+				63D0871724AE52E100A2F367 /* Preferences.swift in Sources */,
+				63D087B224AE838700A2F367 /* PhoneViewController.swift in Sources */,
+				63D087B624AE838700A2F367 /* InboundTableViewCell.swift in Sources */,
+				63DDC55C29C8BE4800ABE1DA /* TokenProvider.swift in Sources */,
+				63D087F024AE860000A2F367 /* CallSession.swift in Sources */,
+				63DDC56929C8C80100ABE1DA /* AccountSetupViewController.swift in Sources */,
+				6371801A249D38F000298741 /* AppDelegate.swift in Sources */,
+				63D087AD24AE838700A2F367 /* InboundCallPathViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63C500E624B38427004F5A7B /* CallConnectingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C500E724B38427004F5A7B /* Base */,
+			);
+			name = CallConnectingViewController.xib;
+			sourceTree = "<group>";
+		};
+		63C500E924B3842F004F5A7B /* CallSessionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C500EA24B3842F004F5A7B /* Base */,
+			);
+			name = CallSessionViewController.xib;
+			sourceTree = "<group>";
+		};
+		63C500EC24B3843C004F5A7B /* CallFailedViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C500ED24B3843C004F5A7B /* Base */,
+			);
+			name = CallFailedViewController.xib;
+			sourceTree = "<group>";
+		};
+		63C500EF24B38446004F5A7B /* CallViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C500F024B38446004F5A7B /* Base */,
+			);
+			name = CallViewController.xib;
+			sourceTree = "<group>";
+		};
+		63C500F224B38453004F5A7B /* CallControlView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C500F324B38453004F5A7B /* Base */,
+			);
+			name = CallControlView.xib;
+			sourceTree = "<group>";
+		};
+		63C500F524B38458004F5A7B /* CallInfoView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C500F624B38458004F5A7B /* Base */,
+			);
+			name = CallInfoView.xib;
+			sourceTree = "<group>";
+		};
+		63C500F824B38466004F5A7B /* ContactAvatarView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C500F924B38466004F5A7B /* Base */,
+			);
+			name = ContactAvatarView.xib;
+			sourceTree = "<group>";
+		};
+		63D0875024AE7F5600A2F367 /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0875124AE7F5600A2F367 /* Base */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		63D0875224AE7F5600A2F367 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0875324AE7F5600A2F367 /* Base */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		63D0875424AE7F5600A2F367 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0875524AE7F5600A2F367 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		63D0876424AE827600A2F367 /* RecentCallTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0876524AE827600A2F367 /* Base */,
+			);
+			name = RecentCallTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		63D0876624AE827600A2F367 /* PhoneTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0876724AE827600A2F367 /* Base */,
+			);
+			name = PhoneTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		63D0876824AE827600A2F367 /* DisplayNameTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0876924AE827600A2F367 /* Base */,
+			);
+			name = DisplayNameTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		63D0876A24AE827600A2F367 /* InboundOptionTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0876B24AE827600A2F367 /* Base */,
+			);
+			name = InboundOptionTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		63D0876C24AE827600A2F367 /* ContactIdTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0876D24AE827600A2F367 /* Base */,
+			);
+			name = ContactIdTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		63D0876E24AE827600A2F367 /* RingtoneTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0876F24AE827600A2F367 /* Base */,
+			);
+			name = RingtoneTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		63D0877024AE827600A2F367 /* VersionTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0877124AE827600A2F367 /* Base */,
+			);
+			name = VersionTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		63D0877224AE827600A2F367 /* RingtoneOptionTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0877324AE827600A2F367 /* Base */,
+			);
+			name = RingtoneOptionTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		63D0877424AE827600A2F367 /* DeactivateTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0877524AE827600A2F367 /* Base */,
+			);
+			name = DeactivateTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		63D0877824AE827600A2F367 /* ActiveCallTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0877924AE827600A2F367 /* Base */,
+			);
+			name = ActiveCallTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		63D0877A24AE827600A2F367 /* InboundTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0877B24AE827600A2F367 /* Base */,
+			);
+			name = InboundTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		63D0878824AE831A00A2F367 /* PhoneViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0878924AE831A00A2F367 /* Base */,
+			);
+			name = PhoneViewController.xib;
+			sourceTree = "<group>";
+		};
+		63D0878A24AE831B00A2F367 /* PlaceCallViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0878B24AE831B00A2F367 /* Base */,
+			);
+			name = PlaceCallViewController.xib;
+			sourceTree = "<group>";
+		};
+		63D0878C24AE831B00A2F367 /* UserProfileViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0878D24AE831B00A2F367 /* Base */,
+			);
+			name = UserProfileViewController.xib;
+			sourceTree = "<group>";
+		};
+		63D0878E24AE831B00A2F367 /* InboundCallPathViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0878F24AE831B00A2F367 /* Base */,
+			);
+			name = InboundCallPathViewController.xib;
+			sourceTree = "<group>";
+		};
+		63D0879024AE831B00A2F367 /* DisplayNameViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0879124AE831B00A2F367 /* Base */,
+			);
+			name = DisplayNameViewController.xib;
+			sourceTree = "<group>";
+		};
+		63D0879224AE831B00A2F367 /* RingtonesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D0879324AE831B00A2F367 /* Base */,
+			);
+			name = RingtonesViewController.xib;
+			sourceTree = "<group>";
+		};
+		63DDC56D29C8D98300ABE1DA /* AccountSetupViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63DDC56E29C8D98300ABE1DA /* Base */,
+			);
+			name = AccountSetupViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63CDC5FA247F125A00906735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6371800E249D345B00298741 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		63CDC5FB247F125A00906735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63718015249D345B00298741 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		63CDC5FD247F125A00906735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6371800B249D345B00298741 /* App.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		63CDC5FE247F125A00906735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6371800B249D345B00298741 /* App.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63CDC5E3247F125900906735 /* Build configuration list for PBXProject "SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CDC5FA247F125A00906735 /* Debug */,
+				63CDC5FB247F125A00906735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CDC5FC247F125A00906735 /* Build configuration list for PBXNativeTarget "SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CDC5FD247F125A00906735 /* Debug */,
+				63CDC5FE247F125A00906735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63718044249D52EF00298741 /* XCRemoteSwiftPackageReference "FileKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nvzqz/FileKit";
+			requirement = {
+				kind = exactVersion;
+				version = 6.0.0;
+			};
+		};
+		63718047249D532F00298741 /* XCRemoteSwiftPackageReference "Prephirences" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/phimage/Prephirences";
+			requirement = {
+				kind = exactVersion;
+				version = 5.1.0;
+			};
+		};
+		6371804A249D539F00298741 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
+			requirement = {
+				kind = exactVersion;
+				version = 19.0.0;
+			};
+		};
+		6371804D249D53CA00298741 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD";
+			requirement = {
+				kind = exactVersion;
+				version = 1.2.0;
+			};
+		};
+		63D0870524AE517500A2F367 /* XCRemoteSwiftPackageReference "Elevate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Nike-Inc/Elevate";
+			requirement = {
+				kind = exactVersion;
+				version = 4.0.0;
+			};
+		};
+		63DDC56029C8C33B00ABE1DA /* XCRemoteSwiftPackageReference "JWTDecode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/JWTDecode.swift";
+			requirement = {
+				kind = exactVersion;
+				version = 3.0.1;
+			};
+		};
+		63DDC56429C8C7CC00ABE1DA /* XCRemoteSwiftPackageReference "Popovers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Macdrive/Popovers.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.3.3;
+			};
+		};
+		63DDC57329C8F4EF00ABE1DA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = exactVersion;
+				version = 5.6.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		63718045249D52EF00298741 /* FileKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63718044249D52EF00298741 /* XCRemoteSwiftPackageReference "FileKit" */;
+			productName = FileKit;
+		};
+		63718048249D532F00298741 /* Prephirences */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63718047249D532F00298741 /* XCRemoteSwiftPackageReference "Prephirences" */;
+			productName = Prephirences;
+		};
+		6371804B249D539F00298741 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6371804A249D539F00298741 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		6371804E249D53CA00298741 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6371804D249D53CA00298741 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		63D0870624AE517500A2F367 /* Elevate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63D0870524AE517500A2F367 /* XCRemoteSwiftPackageReference "Elevate" */;
+			productName = Elevate;
+		};
+		63DDC56129C8C33B00ABE1DA /* JWTDecode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63DDC56029C8C33B00ABE1DA /* XCRemoteSwiftPackageReference "JWTDecode" */;
+			productName = JWTDecode;
+		};
+		63DDC56529C8C7CC00ABE1DA /* Popovers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63DDC56429C8C7CC00ABE1DA /* XCRemoteSwiftPackageReference "Popovers" */;
+			productName = Popovers;
+		};
+		63DDC57429C8F4EF00ABE1DA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63DDC57329C8F4EF00ABE1DA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 63CDC5E0247F125900906735 /* Project object */;
+}

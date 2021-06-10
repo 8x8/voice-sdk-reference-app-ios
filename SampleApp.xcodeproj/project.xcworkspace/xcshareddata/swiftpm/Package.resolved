@@ -1,0 +1,77 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "revision" : "78424be314842833c04bc3bef5b72e85fff99204",
+        "version" : "5.6.4"
+      }
+    },
+    {
+      "identity" : "elevate",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Nike-Inc/Elevate",
+      "state" : {
+        "revision" : "3a43dd93834654632507680bdca85adcb733c00b",
+        "version" : "4.0.0"
+      }
+    },
+    {
+      "identity" : "filekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nvzqz/FileKit",
+      "state" : {
+        "revision" : "826d9161b184509f80d85c28cd612d630646de98",
+        "version" : "6.0.0"
+      }
+    },
+    {
+      "identity" : "jwtdecode.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/auth0/JWTDecode.swift",
+      "state" : {
+        "revision" : "7918a343e674c7707e0be120bb4e21d679be014c",
+        "version" : "3.0.1"
+      }
+    },
+    {
+      "identity" : "keychain-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/evgenyneu/keychain-swift",
+      "state" : {
+        "revision" : "96fb84f45a96630e7583903bd7e08cf095c7a7ef",
+        "version" : "19.0.0"
+      }
+    },
+    {
+      "identity" : "mbprogresshud",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jdg/MBProgressHUD",
+      "state" : {
+        "revision" : "bca42b801100b2b3a4eda0ba8dd33d858c780b0d",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "popovers",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Macdrive/Popovers.git",
+      "state" : {
+        "revision" : "1a2add0ee005e45382d6aae44b31e9068f704e9b",
+        "version" : "1.3.3"
+      }
+    },
+    {
+      "identity" : "prephirences",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/phimage/Prephirences",
+      "state" : {
+        "revision" : "81b4792293972ec7541a941333e584ccc7976198",
+        "version" : "5.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}

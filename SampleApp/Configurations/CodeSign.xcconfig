@@ -1,0 +1,7 @@
+//
+//  CodeSign.xcconfig
+//
+//  Copyright © 2020 8x8, Inc. All rights reserved.
+//
+
+#include "CodeSign/development.xcconfig"
