@@ -11,7 +11,7 @@ Please make sure you have the following tools installed with `brew`:
 
 The project has an external dependency on ***Wavecell.xcframework***:
 
-* https://github.com/8x8Cloud/voice-sdk-ios/releases
+* https://github.com/8x8/voice-sdk-releases-ios/releases
 
 Download  and unzip framework to:
 
